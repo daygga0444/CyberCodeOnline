@@ -24,20 +24,20 @@
  	"npc": {
  	 	"unitExchange": {
  	 	 	"name": {
- 	 	 	 	"trans": "สถานที่แลกเปลี่ยนยูนิต Arasaka",
+ 	 	 	 	"trans": "ศูนย์แลกเปลี่ยนunit Arasaka",
  	 	 	 	"eng": "Arasaka Unit Exchange"
  	 	 	},
  	 	 	"tut": {
- 	 	 	 	"trans": "คุณสามารถซื้อไอเทมเสริมความสามารถอย่างแพร่หลายไปทั่วโลกได้ที่นี่",
+ 	 	 	 	"trans": "คุณสามารถซื้อไอเทมบัฟความสามารถจากทั่วโลก",
  	 	 	 	"eng": "You can purchase global buff items here"
  	 	 	},
  	 	 	"canAccessError": {
- 	 	 	 	"trans": "คุณต้องการอย่างน้อยเลเวล 3 เพื่อเปิดใช้งาน สถานที่แลกเปลี่ยนยูนิต Arasaka",
+ 	 	 	 	"trans": "คุณต้องอย่างน้อยเลเวล 3 เพื่อเปิดใช้งาน ศูนย์และกเปลี่ยนunit Arasaka",
  	 	 	 	"eng": "You need to be at least level 3 to access unit exchange"
  	 	 	},
  	 	 	"defaultLines": {
  	 	 	 	"trans": [
- 	 	 	 	 	"คุณต้องการซื้อยูนิตหรือใข้ยูนิตของคุณเอง?"
+ 	 	 	 	 	"คุณต้องการซื้อ Unit หรือใช้ Unit ของคุณ?"
  	 	 	 	],
  	 	 	 	"eng": [
  	 	 	 	 	"Do you want to buy Units, or use your Units?"
@@ -68,16 +68,16 @@
  	 	},
  	 	"printer": {
  	 	 	"name": {
- 	 	 	 	"trans": "เครื่องพิมพ์โมเลกุลสามมิติ",
+ 	 	 	 	"trans": "เครื่องพิมพ์สามมิติ",
  	 	 	 	"eng": "Molecular 3d Printer"
  	 	 	},
  	 	 	"tut": {
- 	 	 	 	"trans": "คุณสามารถใช้แคชของคุณเพื่อพิมพ์อุปกรณ์ชิ้นใหม่ได้ที่นี่",
+ 	 	 	 	"trans": "คุณสามารถใช้ Cache ของคุณเพื่อพิมพ์อุปกรณ์ชิ้นใหม่ได้",
  	 	 	 	"eng": "You can use your Cache to print new equipment here"
  	 	 	},
  	 	 	"defaultLines": {
  	 	 	 	"trans": [
- 	 	 	 	 	"ฉันจะพิมพ์สิ่งที่คุณต้องการนะ ถ้าคุณมีแคชอะนะ!"
+ 	 	 	 	 	"ฉันจะพิมพ์สิ่งที่คุณต้องการนะ ถ้าคุณมีCacheอะนะ!"
  	 	 	 	],
  	 	 	 	"eng": [
  	 	 	 	 	"I'll print whatever you want if you have the cache!"
@@ -134,7 +134,7 @@
  	 	 	 	 	"Hey kid... Come check out my goods."
  	 	 	 	],
  	 	 	 	"eng": [
- 	 	 	 	 	"เฮ้ เจ้าหนู... มาดูสินค้าดีๆ ของฉันสิ"
+ 	 	 	 	 	"เฮ้ หนู... เข้ามานี้สิ จะมาดูของดี"
  	 	 	 	]
  	 	 	}
  	 	},
@@ -152,7 +152,7 @@
  	 	 	 	 	"Welcome. What can I store for you?"
  	 	 	 	],
  	 	 	 	"eng": [
- 	 	 	 	 	"ยินดีต้อนรับจ่ะ ฉันจะเก็บอะไรให้คุณได้บ้างจ้ะ?"
+ 	 	 	 	 	"ยินดีต้อนรับจ่ะ จะให้ฉันเก็บอะไรให้คุณบ้างจ้ะ?"
  	 	 	 	]
  	 	 	}
  	 	},
@@ -162,7 +162,7 @@
  	 	 	 	"eng": "Calibration Station"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "โต๊ะงานช่างที่มีเครื่องมือที่จำเป็นจะช่วยให้คุณสามารถปรับแต่งอุปกรณ์ของคุณได้",
+ 	 	 	 	"trans": "โต๊ะงานช่างที่มีเครื่องมือที่จำเป็น จะช่วยให้คุณสามารถปรับแต่งอุปกรณ์ของคุณได้",
  	 	 	 	"eng": "A workbench with the necessary tools allows you to tinker with your equipment."
  	 	 	},
  	 	 	"canAccessError": {
@@ -170,7 +170,7 @@
  	 	 	 	"eng": "You need to be at least level 10 to access Calibration Station"
  	 	 	},
  	 	 	"defaultLines": {
- 	 	 	 	"trans": [
+ 	 	 	 	"trans": [ใส่ Calibration Core เข้าไปในเครื่อง และฉันจะช่วยคุณปรับเทียบอุปกรณ์ใดๆ ของคุณ
  	 	 	 	 	"Insert a Calibration Core into the machine, and I shall help you calibrate any of your equipment."
  	 	 	 	],
  	 	 	 	"eng": [
@@ -179,8 +179,8 @@
  	 	 	}
  	 	},
  	 	"storageMerchant": {
- 	 	 	"name": {
- 	 	 	 	"trans": "สถานีค้าขายของลี",
+                        "name": {
+ 	 	 	 	"trans": "ร้านค้าของลี",
  	 	 	 	"eng": "Lee's Trading Post"
  	 	 	},
  	 	 	"description": {
@@ -188,7 +188,7 @@
  	 	 	 	"eng": "A family run trading shop that lets you trade with what they have found while scavenging"
  	 	 	},
  	 	 	"canAccessError": {
- 	 	 	 	"trans": "คุณต้องการอย่างน้อยเลเวล 10 เพื่อเปิดใช้งานสถานีค้าขายของลี",
+ 	 	 	 	"trans": "คุณต้องการอย่างน้อยเลเวล 10 เพื่อเปิดใช้งานร้านค้าของลี",
  	 	 	 	"eng": "You need to be at least level 10 to access merchant"
  	 	 	},
  	 	 	"defaultLines": {
